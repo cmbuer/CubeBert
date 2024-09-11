@@ -1,0 +1,595 @@
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   Assets/Inputs.meta
+	new file:   Assets/Inputs/MainPlayerInput.cs
+	new file:   Assets/Inputs/MainPlayerInput.cs.meta
+	new file:   Assets/Inputs/MainPlayerInput.inputactions
+	new file:   Assets/Inputs/MainPlayerInput.inputactions.meta
+	new file:   Assets/Laser Weapons Sound Pack.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_1.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_1.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_2.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_2.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_3.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_3.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_4.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_4.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_5.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/continuous_beam_5.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_001.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_001.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_002.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_002.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_003.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_003.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_004.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_004.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_005.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_005.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_006.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_006.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_007.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_007.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_008.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_008.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_009.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_009.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_010.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_010.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_011.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_011.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_012.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_012.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_013.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_013.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_014.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_014.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_015.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/heavy_blast_015.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_1.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_1.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_10.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_10.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_11.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_11.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_2.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_2.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_3.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_3.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_4.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_4.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_5.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_5.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_6.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_6.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_7.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_7.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_8.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_8.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_9.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/light_blast_9.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_001.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_001.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_002.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_002.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_003.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_003.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_004.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_004.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_005.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_005.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_006.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_006.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_007.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_007.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_008.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_008.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_009.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_009.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_010.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_010.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_011.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_011.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_012.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_012.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_013.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/reloading_013.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_12.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_12.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_19.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_19.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_26.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_26.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_37.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_37.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_44.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_44.wav.meta
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_48.wav
+	new file:   Assets/Laser Weapons Sound Pack/Free/weapon_handling_48.wav.meta
+	new file:   Assets/Materials.meta
+	new file:   Assets/Materials/CubeBertMaterial.mat
+	new file:   Assets/Materials/CubeBertMaterial.mat.meta
+	new file:   Assets/Materials/LaserMaterial.mat
+	new file:   Assets/Materials/LaserMaterial.mat.meta
+	new file:   Assets/Materials/MushroomMaterial.mat
+	new file:   Assets/Materials/MushroomMaterial.mat.meta
+	new file:   Assets/Materials/ShinyMaterial.mat
+	new file:   Assets/Materials/ShinyMaterial.mat.meta
+	new file:   Assets/Materials/TileBlueMaterial.mat
+	new file:   Assets/Materials/TileBlueMaterial.mat.meta
+	new file:   Assets/Materials/TileGrayMaterial.mat
+	new file:   Assets/Materials/TileGrayMaterial.mat.meta
+	new file:   Assets/Meshes.meta
+	new file:   Assets/Meshes/Platform_10x10x1.obj
+	new file:   Assets/Meshes/Platform_10x10x1.obj.meta
+	new file:   Assets/Music.meta
+	new file:   Assets/Music/TR_SYNTHWAVE.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/01_Revelation.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/02_ChasingTheStars.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/03_DarknessBehind.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/04_ElectricPhase.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/05_HyperDrive.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/06_8-bitHero.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_FULL.wav
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_FULL.wav.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_FULL_02.wav
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_FULL_02.wav.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_01.wav
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_01.wav.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_02.wav
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_02.wav.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_03.wav
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_03.wav.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_04.wav
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_04.wav.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_05.wav
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_05.wav.meta
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_06.wav
+	new file:   Assets/Music/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_06.wav.meta
+	new file:   Assets/Prefabs.meta
+	new file:   Assets/Prefabs/CubeBert.prefab
+	new file:   Assets/Prefabs/CubeBert.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts.meta
+	new file:   Assets/Prefabs/CubeBertParts/ArmLeft.prefab
+	new file:   Assets/Prefabs/CubeBertParts/ArmLeft.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts/ArmRight.prefab
+	new file:   Assets/Prefabs/CubeBertParts/ArmRight.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts/Foot.prefab
+	new file:   Assets/Prefabs/CubeBertParts/Foot.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts/Hand.prefab
+	new file:   Assets/Prefabs/CubeBertParts/Hand.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts/Joint.prefab
+	new file:   Assets/Prefabs/CubeBertParts/Joint.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts/Knee.prefab
+	new file:   Assets/Prefabs/CubeBertParts/Knee.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts/LegCylinder.prefab
+	new file:   Assets/Prefabs/CubeBertParts/LegCylinder.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts/LegJoints.prefab
+	new file:   Assets/Prefabs/CubeBertParts/LegJoints.prefab.meta
+	new file:   Assets/Prefabs/CubeBertParts/MoveTarget.prefab
+	new file:   Assets/Prefabs/CubeBertParts/MoveTarget.prefab.meta
+	new file:   Assets/Prefabs/LaserBolt.prefab
+	new file:   Assets/Prefabs/LaserBolt.prefab.meta
+	new file:   Assets/Prefabs/PenguinBot.prefab
+	new file:   Assets/Prefabs/PenguinBot.prefab.meta
+	new file:   Assets/Prefabs/SurfaceBlue_10x10x1.prefab
+	new file:   Assets/Prefabs/SurfaceBlue_10x10x1.prefab.meta
+	new file:   Assets/Prefabs/SurfaceGray_10x10x1.prefab
+	new file:   Assets/Prefabs/SurfaceGray_10x10x1.prefab.meta
+	new file:   Assets/Scenes.meta
+	new file:   Assets/Scenes/MainMenu.unity
+	new file:   Assets/Scenes/MainMenu.unity.meta
+	new file:   Assets/Scenes/SplashScreen.unity
+	new file:   Assets/Scenes/SplashScreen.unity.meta
+	new file:   Assets/Scenes/TestLevel.meta
+	new file:   Assets/Scenes/TestLevel.unity
+	new file:   Assets/Scenes/TestLevel.unity.meta
+	new file:   Assets/Scenes/TestLevel/LightingData.asset
+	new file:   Assets/Scenes/TestLevel/LightingData.asset.meta
+	new file:   Assets/Scenes/TestLevel/ReflectionProbe-0.exr
+	new file:   Assets/Scenes/TestLevel/ReflectionProbe-0.exr.meta
+	new file:   Assets/Scripts.meta
+	new file:   Assets/Scripts/CubeBert.cs
+	new file:   Assets/Scripts/CubeBert.cs.meta
+	new file:   Assets/Scripts/CubeBertLegMove.cs
+	new file:   Assets/Scripts/CubeBertLegMove.cs.meta
+	new file:   Assets/Scripts/CubeBertMove.cs
+	new file:   Assets/Scripts/CubeBertMove.cs.meta
+	new file:   Assets/Scripts/FabrikChain.cs
+	new file:   Assets/Scripts/FabrikChain.cs.meta
+	new file:   Assets/Scripts/FollowPlayer.cs
+	new file:   Assets/Scripts/FollowPlayer.cs.meta
+	new file:   Assets/Scripts/Game.cs
+	new file:   Assets/Scripts/Game.cs.meta
+	new file:   Assets/Scripts/LaserBeak.cs
+	new file:   Assets/Scripts/LaserBeak.cs.meta
+	new file:   Assets/Scripts/LaserBolt.cs
+	new file:   Assets/Scripts/LaserBolt.cs.meta
+	new file:   Assets/Scripts/MenuControls.cs
+	new file:   Assets/Scripts/MenuControls.cs.meta
+	new file:   Assets/Scripts/VerticalHold.cs
+	new file:   Assets/Scripts/VerticalHold.cs.meta
+	new file:   Assets/Settings.meta
+	new file:   Assets/Settings/LightingSettings.lighting
+	new file:   Assets/Settings/LightingSettings.lighting.meta
+	new file:   Assets/TextMesh Pro.meta
+	new file:   Assets/TextMesh Pro/Documentation.meta
+	new file:   Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+	new file:   Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+	new file:   Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Prefabs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+	new file:   Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+	new file:   Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+	new file:   Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+	new file:   Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+	new file:   Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Sprites.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+	new file:   Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+	new file:   Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+	new file:   Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta
+	new file:   Assets/TextMesh Pro/Fonts.meta
+	new file:   Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+	new file:   Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+	new file:   Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+	new file:   Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+	new file:   Assets/TextMesh Pro/Resources.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+	new file:   Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+	new file:   Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+	new file:   Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+	new file:   Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+	new file:   Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+	new file:   Assets/TextMesh Pro/Resources/Sprite Assets.meta
+	new file:   Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+	new file:   Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+	new file:   Assets/TextMesh Pro/Resources/Style Sheets.meta
+	new file:   Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+	new file:   Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+	new file:   Assets/TextMesh Pro/Resources/TMP Settings.asset
+	new file:   Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+	new file:   Assets/TextMesh Pro/Shaders.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+	new file:   Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMPro.cginc
+	new file:   Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+	new file:   Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+	new file:   Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+	new file:   Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+	new file:   Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+	new file:   Assets/TextMesh Pro/Sprites.meta
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne.json
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne.png
+	new file:   Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+	new file:   Assets/Textures.meta
+	new file:   Assets/Textures/Game.meta
+	new file:   Assets/Textures/Game/TileBlue.PNG
+	new file:   Assets/Textures/Game/TileBlue.PNG.meta
+	new file:   Assets/Textures/Game/TileGray.png
+	new file:   Assets/Textures/Game/TileGray.png.meta
+	new file:   Assets/Textures/Game/infected mushroom.PNG
+	new file:   Assets/Textures/Game/infected mushroom.PNG.meta
+	new file:   Assets/Textures/Menu.meta
+	new file:   Assets/Textures/Menu/Astrosmash_-_1981_-_Mattel_Electronics-Series2-6.png
+	new file:   Assets/Textures/Menu/Astrosmash_-_1981_-_Mattel_Electronics-Series2-6.png.meta
+	new file:   Assets/Textures/Menu/CubeBertMainMenuSnip.PNG
+	new file:   Assets/Textures/Menu/CubeBertMainMenuSnip.PNG.meta
+	new file:   Assets/Textures/Menu/Splash Screen Alternate olive 3 - full hd - blurred.png
+	new file:   Assets/Textures/Menu/Splash Screen Alternate olive 3 - full hd - blurred.png.meta
+	new file:   Assets/Textures/Menu/Splash Screen Alternate olive 3-full hd - Clear.png
+	new file:   Assets/Textures/Menu/Splash Screen Alternate olive 3-full hd - Clear.png.meta
+	new file:   Assets/Textures/Menu/StaticRenderTexture.asset
+	new file:   Assets/Textures/Menu/StaticRenderTexture.asset.meta
+	new file:   Assets/Video.meta
+	new file:   Assets/Video/tv_static_1080p_60fps.mp4
+	new file:   Assets/Video/tv_static_1080p_60fps.mp4.meta
+	new file:   Packages/manifest.json
+	new file:   Packages/packages-lock.json
+	new file:   ProjectSettings/AudioManager.asset
+	new file:   ProjectSettings/ClusterInputManager.asset
+	new file:   ProjectSettings/DynamicsManager.asset
+	new file:   ProjectSettings/EditorBuildSettings.asset
+	new file:   ProjectSettings/EditorSettings.asset
+	new file:   ProjectSettings/GraphicsSettings.asset
+	new file:   ProjectSettings/InputManager.asset
+	new file:   ProjectSettings/NavMeshAreas.asset
+	new file:   ProjectSettings/PackageManagerSettings.asset
+	new file:   ProjectSettings/Physics2DSettings.asset
+	new file:   ProjectSettings/PresetManager.asset
+	new file:   ProjectSettings/ProjectSettings.asset
+	new file:   ProjectSettings/ProjectVersion.txt
+	new file:   ProjectSettings/QualitySettings.asset
+	new file:   ProjectSettings/SceneTemplateSettings.json
+	new file:   ProjectSettings/TagManager.asset
+	new file:   ProjectSettings/TimeManager.asset
+	new file:   ProjectSettings/TimelineSettings.asset
+	new file:   ProjectSettings/UnityConnectSettings.asset
+	new file:   ProjectSettings/VFXManager.asset
+	new file:   ProjectSettings/VersionControlSettings.asset
+	new file:   ProjectSettings/XRSettings.asset
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	gitlog.txt
+
