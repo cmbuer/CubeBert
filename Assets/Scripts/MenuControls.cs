@@ -8,8 +8,7 @@ using UnityEngine.SceneManagement;
 public class MenuControls : MonoBehaviour
 {
     public void OnPlayButtonClicked()
-    {
-        Debug.Log("dsadsa");
+    {        
         SceneManager.LoadScene("TestLevel");
     }
 }

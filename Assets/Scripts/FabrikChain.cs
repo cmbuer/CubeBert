@@ -75,7 +75,7 @@ public class FabrikChain
         /** Solve Cycle **/
 
         // First, we check to see it the target is within reach of the chain.
-        // If not: We extend the chain along a straight line to it's max in the direction of the target.
+        // If not: We extend the chain along a straight line to its max in the direction of the target.
         // If so:  We solve normally, traversing back and forth through the chain.
         if ((target.localPosition - root.localPosition).sqrMagnitude > chainLength * chainLength)
         {

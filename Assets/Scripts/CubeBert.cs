@@ -9,6 +9,7 @@ public class CubeBert : MonoBehaviour
     public int maxHealth;
     public int health;
     public AudioSource hitAudio;
+    public AudioSource healAudio;
 
     private void Awake()
     {
@@ -21,7 +22,13 @@ public class CubeBert : MonoBehaviour
         hitAudio.Play();
         return health;
     }
-
+    public int Heal (int amount)
+    {
+        int newHealth = health + amount;
+        health = (newHealth > maxHealth) ? maxHealth : newHealth;        
+        healAudio.Play();
+        return health;
+    }
     public int GetHealth()
     {
         return health;

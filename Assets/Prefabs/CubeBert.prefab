@@ -57,6 +57,7 @@ MonoBehaviour:
   maxHealth: 100
   health: 0
   hitAudio: {fileID: 0}
+  healAudio: {fileID: 0}
 --- !u!114 &4919538474331008157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,8 +70,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4462045abba4282499d315c65b7fea3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightLeg: {fileID: 0}
-  leftLeg: {fileID: 0}
   rightHip: {fileID: 4828046795893061593}
   leftHip: {fileID: 4828046797530551021}
   rightKnee: {fileID: 4828046797035669997}

@@ -39,6 +39,11 @@ public class Game : MonoBehaviour
         return instance;
     }
 
+    public static Color GetHealthStatus()
+    {
+        return instance.healthText.color;
+    }
+
     public Vector3 GetCubertTargetPosition()
     {
         return GetCubeBertComponents().cubeBertMove.GetChestPosition();
@@ -49,6 +54,10 @@ public class Game : MonoBehaviour
         if (other.gameObject.tag == "Laser")
         {
             cubeBert.Damage(5);
+        }
+        if (other.gameObject.tag == "HealthCube")
+        {
+            cubeBert.Heal(10);
         }
     }
 
@@ -61,6 +70,11 @@ public class Game : MonoBehaviour
             cbComponents.cubeBertMove = cbComponents.cubeBert.gameObject.GetComponent<CubeBertMove>();
         }
         return cbComponents;
+    }
+
+    private void GenerateLevel()
+    {
+
     }
 
     private void Awake()
@@ -110,7 +124,7 @@ public class Game : MonoBehaviour
                 healthText.text = string.Format("HEALTH: {0}", cubeBertHealth);
                 if (cubeBertHealth < 40)
                 {
-                    healthText.color = Color.red;
+                    healthText.color = Color.red;                    
                 }
                 else if (cubeBertHealth < 65)
                 {

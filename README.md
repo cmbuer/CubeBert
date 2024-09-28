@@ -18,3 +18,5 @@ In this demo, CubeBert faces down robot drones that have a stylized penguin shap
 While the music and sound effects came from the Unity asset store, the bulk of the project is homegrown.
 
 Controls are simple, and in the standard FPS style:  WASD keys for movement, shift to jump.
+
+The demo now contains preliminary version of health pickups and an attack mechanic--CubeBert can jump on the penguin bot's heads to dispatch them.
